@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTree - Intelligent Plant Recommendation | Beauty & Safety for Your Home</title>
+    <meta name="description" content="Smart plant recommendation app suggesting fire-resistant plants based on room type, enhancing home safety while beautifying your environment">
+    <meta name="keywords" content="smart plants,fire resistant plants,home safety,plant recommendation,green living">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>SmartTree</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#plants" class="nav-link">Plant Database</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#download" class="nav-link">Download</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">SmartTree</span>
+                        <br>Beauty & Safety for Your Home
+                    </h1>
+                    <p class="hero-subtitle">
+                        Intelligent Fire-Resistant Plant Recommendation System<br>
+                        Smart Choices, Safe Living, Green Future
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Now
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            <i class="fas fa-play"></i>
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <img src="images/app-screenshot-main.png" alt="SmartTree App Main Interface" class="app-screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#features" class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Key Features</h2>
+                <p class="section-subtitle">Scientific recommendations and intelligent selection for your home safety</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="feature-title">Smart Recommendation</h3>
+                    <p class="feature-description">
+                        Intelligently recommends the most suitable fire-resistant plants based on room type and environmental characteristics
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-fire-extinguisher"></i>
+                    </div>
+                    <h3 class="feature-title">Fire Safety</h3>
+                    <p class="feature-description">
+                        Focuses on plants with fire-resistant properties, enhancing home fire safety through multi-dimensional rating system
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="feature-title">Room Type Matching</h3>
+                    <p class="feature-description">
+                        Supports 6 room types including living room, bedroom, kitchen, bathroom, study, and balcony
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="feature-title">Detailed Ratings</h3>
+                    <p class="feature-description">
+                        Provides multi-dimensional ratings for fire resistance, air purification, and care difficulty
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="feature-title">Care Guide</h3>
+                    <p class="feature-description">
+                        Detailed plant care instructions and precautions, easy for even gardening beginners
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Beautiful Interface</h3>
+                    <p class="feature-description">
+                        Modern Material Design with smooth animations, delivering an excellent user experience
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plants Database Section -->
+    <section id="plants" class="plants">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Plant Database</h2>
+                <p class="section-subtitle">Curated fire-resistant plants backed by scientific data</p>
+            </div>
+            
+            <div class="plants-categories">
+                <div class="category-tabs" data-aos="fade-up">
+                    <button class="tab-btn active" data-category="high-fire">High Fire Resistance</button>
+                    <button class="tab-btn" data-category="air-purify">Air Purification</button>
+                    <button class="tab-btn" data-category="easy-care">Easy Care</button>
+                </div>
+                
+                <div class="plants-grid" id="plants-grid">
+                    <!-- High Fire Resistance Plants -->
+                    <div class="plant-card high-fire active" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="plant-image">
+                            <img src="images/jade-plant.jpg" alt="Jade Plant" loading="lazy">
+                        </div>
+                        <div class="plant-info">
+                            <h3 class="plant-name">Jade Plant</h3>
+                            <p class="plant-scientific">Crassula ovata</p>
+                            <p class="plant-description">Thick-leaved succulent with high water content, a natural fire barrier</p>
+                            <div class="plant-features">
+                                <span class="feature-tag">Strong Fire Resistance</span>
+                                <span class="feature-tag">Decorative</span>
+                                <span class="feature-tag">Hardy</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="plant-card high-fire active" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="plant-image">
+                            <img src="images/aloe-vera.jpg" alt="Aloe Vera" loading="lazy">
+                        </div>
+                        <div class="plant-info">
+                            <h3 class="plant-name">Aloe Vera</h3>
+                            <p class="plant-scientific">Aloe vera</p>
+                            <p class="plant-description">Succulent plant with excellent fire-resistant properties and high leaf water content</p>
+                            <div class="plant-features">
+                                <span class="feature-tag">Fire Resistant</span>
+                                <span class="feature-tag">Medicinal Value</span>
+                                <span class="feature-tag">Easy Care</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="plant-card high-fire active" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="plant-image">
+                            <img src="images/rubber-plant.jpg" alt="Rubber Plant" loading="lazy">
+                        </div>
+                        <div class="plant-info">
+                            <h3 class="plant-name">Rubber Plant</h3>
+                            <p class="plant-scientific">Ficus elastica</p>
+                            <p class="plant-description">Thick leathery leaves rich in water and sap content</p>
+                            <div class="plant-features">
+                                <span class="feature-tag">Fire Resistant</span>
+                                <span class="feature-tag">Air Purifying</span>
+                                <span class="feature-tag">Elegant</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Air Purifying Plants -->
+                    <div class="plant-card air-purify" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="plant-image">
+                            <img src="images/spider-plant.jpg" alt="Spider Plant" loading="lazy">
+                        </div>
+                        <div class="plant-info">
+                            <h3 class="plant-name">Spider Plant</h3>
+                            <p class="plant-scientific">Chlorophytum comosum</p>
+                            <p class="plant-description">Excellent air purifying plant with strong formaldehyde absorption</p>
+                            <div class="plant-features">
+                                <span class="feature-tag">Air Purifying</span>
+                                <span class="feature-tag">Formaldehyde Removal</span>
+                                <span class="feature-tag">Cascading</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="plant-card air-purify" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="plant-image">
+                            <img src="images/pothos.jpg" alt="Pothos" loading="lazy">
+                        </div>
+                        <div class="plant-info">
+                            <h3 class="plant-name">Pothos</h3>
+                            <p class="plant-scientific">Epipremnum aureum</p>
+                            <p class="plant-description">High leaf water content, fast-growing with excellent purification effects</p>
+                            <div class="plant-features">
+                                <span class="feature-tag">Fast Growing</span>
+                                <span class="feature-tag">Air Purifying</span>
+                                <span class="feature-tag">Adaptable</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Easy Care Plants -->
+                    <div class="plant-card easy-care" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="plant-image">
+                            <img src="images/snake-plant.jpg" alt="Snake Plant" loading="lazy">
+                        </div>
+                        <div class="plant-info">
+                            <h3 class="plant-name">Snake Plant</h3>
+                            <p class="plant-scientific">Sansevieria trifasciata</p>
+                            <p class="plant-description">Thick succulent leaves that release oxygen at night, extremely easy to care for</p>
+                            <div class="plant-features">
+                                <span class="feature-tag">Night Oxygen</span>
+                                <span class="feature-tag">Low Light Tolerant</span>
+                                <span class="feature-tag">Fire Resistant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content" data-aos="fade-up">
+                <div class="download-text">
+                    <h2 class="download-title">Download SmartTree Now</h2>
+                    <p class="download-subtitle">
+                        Start your smart plant journey<br>
+                        Let technology safeguard your green living
+                    </p>
+                    <div class="download-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Fire-Resistant Plants</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">Room Types</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Free to Use</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-buttons">
+                    <a href="downloads/smartTree.apk" class="download-btn android" download>
+                        <i class="fab fa-android"></i>
+                        <div class="btn-text">
+                            <span class="btn-label">Download for Android</span>
+                            <span class="btn-size">APK • 20MB</span>
+                        </div>
+                    </a>
+                    <a href="app/index.html" class="download-btn web" target="_blank">
+                        <i class="fas fa-globe"></i>
+                        <div class="btn-text">
+                            <span class="btn-label">Try Web Version</span>
+                            <span class="btn-size">Use Online</span>
+                        </div>
+                    </a>
+                    <div class="download-btn ios disabled">
+                        <i class="fab fa-apple"></i>
+                        <div class="btn-text">
+                            <span class="btn-label">iOS Version</span>
+                            <span class="btn-size">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>SmartTree</span>
+                    </div>
+                    <p class="footer-description">
+                        Science-based intelligent plant recommendation system for beauty and safety.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product Features</h4>
+                    <ul>
+                        <li>Smart Room Recognition</li>
+                        <li>Fire-Resistant Plants</li>
+                        <li>Multi-dimensional Ratings</li>
+                        <li>Care Guidelines</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Technical Support</h4>
+                    <ul>
+                        <li>Flutter 3.29.3</li>
+                        <li>Cross-Platform</li>
+                        <li>Material Design</li>
+                        <li>Open Source</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> support@smarttree.app</p>
+                        <p><i class="fas fa-globe"></i> www.smarttree.app</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SmartTree. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# 图片资源说明
+
+这个目录用于存放网站所需的图片资源：
+
+## 需要的图片文件：
+- app-screenshot-main.png - 应用主界面截图
+- jade-plant.jpg - 玉树图片
+- aloe-vera.jpg - 芦荟图片  
+- rubber-plant.jpg - 橡皮树图片
+- spider-plant.jpg - 吊兰图片
+- pothos.jpg - 绿萝图片
+- snake-plant.jpg - 虎尾兰图片
+- screenshot-1.png - 启动页面截图
+- screenshot-2.png - 房型选择截图
+- screenshot-3.png - 智能推荐截图
+- screenshot-4.png - 植物详情截图
+
+## 图片规格建议：
+- 应用截图：375x812px (iPhone尺寸)
+- 植物图片：400x300px
+- 高质量JPG/PNG格式
+- 文件大小控制在500KB以内
+
+## 获取方式：
+1. 从Flutter应用中截图
+2. 使用免费图库（如Unsplash）
+3. 自行拍摄植物照片

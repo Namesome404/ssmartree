@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "public": true,
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": "website",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/app/(.*)",
+      "dest": "/build/web/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
+
